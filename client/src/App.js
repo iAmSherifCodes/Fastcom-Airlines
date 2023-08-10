@@ -6,6 +6,7 @@ import SignUp from './features/auth/SignUp';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CreateTicktet from './features/ticket/createTicktet';
 import AdminSignUp from './features/auth/AdminSignUp';
+import AirlineEquiry from './features/airlineEnquiry/AirlineEnquiry'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path='/forgot-password' element={<ForgotPassword />} />
           <Route path='/reset-password/:token' element={<ResetPassword />} />
           <Route path='/create-ticket' element={<CreateTicktet />} />
-          {/* <Route path='/airline-enquiry' element ={<AirlineEquiry/>}/> */}
+          <Route path='/airline-enquiry' element ={<AirlineEquiry/>}/>
         </Routes>
       </Router>
     </div>

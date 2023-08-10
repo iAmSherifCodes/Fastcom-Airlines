@@ -78,7 +78,7 @@ const Login = () => {
             variant="outlined"
           />
         </Box>
-        <Box we>
+        <Box >
           <Button
             sx={LoginStyle.ButtonStyles}
             variant="contained"

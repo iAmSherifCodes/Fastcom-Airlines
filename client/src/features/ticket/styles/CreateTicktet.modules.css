@@ -1,0 +1,52 @@
+.ticketMainContain{
+    padding: 0% 5% 0% 0%;
+}
+
+.ticketForm{
+    display: grid;
+    grid-template-columns: 56% 56%;
+    width: 60%;
+    column-gap: 5%;
+    height: 60%;
+}
+.ticketTextField{
+    width: 100%;
+    border: 1.5px solid white;
+}
+.ticketTextField::hover, .ticketTextField::active,.ticketTextField::focus{
+    width: 100%;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-top-width: none;
+    border-top-color: none;
+    border-top-style:none;
+    border-left-width: none;
+    border-left-color: none;
+    border-left-style:none ;
+    border-right-width: none;
+    border-right-color: none;
+    border-right-style: none;
+    outline: none;
+}
+.ticketFormControl{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.ticketbtn{
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 33%;
+}
+#ticketBtn{
+    width: 30%;
+}
+#ticketBtn:hover, #ticketBtn::after,#ticketBtn::focus{
+    width: 30%;
+    background-color: rgb(83, 5, 252);
+    color: white;
+    text-transform: none;
+}
